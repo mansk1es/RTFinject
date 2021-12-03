@@ -1,0 +1,7 @@
+D:\Excluded\VS\RTFinject\RTFinject\bin\x64\Release\RTFinject.exe.config
+D:\Excluded\VS\RTFinject\RTFinject\bin\x64\Release\RTFinject.exe
+D:\Excluded\VS\RTFinject\RTFinject\bin\x64\Release\RTFinject.pdb
+D:\Excluded\VS\RTFinject\RTFinject\obj\x64\Release\RTFinject.csprojAssemblyReference.cache
+D:\Excluded\VS\RTFinject\RTFinject\obj\x64\Release\RTFinject.csproj.CoreCompileInputs.cache
+D:\Excluded\VS\RTFinject\RTFinject\obj\x64\Release\RTFinject.exe
+D:\Excluded\VS\RTFinject\RTFinject\obj\x64\Release\RTFinject.pdb
