@@ -7,4 +7,4 @@ For legal purposes only.
 
 
 #### Soon built-in obfuscation implementation.
-![image](https://github.com/mansk1es/RTFinject/blob/main/pic/rtfnj.PNG)
+![image](https://github.com/mansk1es/RTFinject/blob/main/pic/a.PNG?raw=true)
